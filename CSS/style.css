@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image: url(../images/fondo2.png);
+    height: 100vh;
+    width: 100%;
+}
+
+.mask{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(95, 95, 95, 0.274);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(0, 225, 255),rgb(3, 74, 180),rgb(3, 94, 180),rgb(163, 178, 180));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+    transform: translateY(-50px);
+}
+
+label {
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+input {
+    font-size: 1.5em;
+    background-color: rgba(127, 236, 255, 0.149);
+    font-weight: 600;
+    height: 30px;
+    width: 300px;
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(56, 56, 56);
+}
+
+input:hover {
+    box-shadow: rgba(0, 68, 255, 0.245) 0px 0px 4px 4px;
+}
